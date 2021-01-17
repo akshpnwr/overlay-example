@@ -1,0 +1,42 @@
+.btn-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.btn-show {
+  font-size: 1rem;
+  background-color: #46464670;
+  color: #212121;
+  outline: none;
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.btn-close {
+  height: 20px;
+  position: absolute;
+  right: 0;
+}
+
+.hidden {
+  display: none;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.modal {
+  background-color: white;
+  width: 70%;
+  padding: 0 1rem;
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
